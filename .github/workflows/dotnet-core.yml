@@ -21,9 +21,7 @@ jobs:
       
     - name: dotnet info
       run: dotnet --info
-      
-    - name: Restore
-      run: dotnet restore
+
       
     - name: Build
       run: dotnet build --configuration Release
