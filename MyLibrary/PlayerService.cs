@@ -7,7 +7,7 @@ namespace MyLibrary {
     public class PlayerService {
 
 
-        public List<Player> getAll() {
+        public virtual List<Player> getAll() {
             throw new NotImplementedException();
         }
 
