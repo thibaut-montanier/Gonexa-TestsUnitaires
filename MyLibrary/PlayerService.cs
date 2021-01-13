@@ -13,7 +13,7 @@ namespace MyLibrary {
 
         public string getPlayerLst() {
             return string.Join("\n",
-                this.getAll().Select(p=>$"Nom : {p.Name}, prenom : {p.FirstName}");
+                this.getAll().Select(p=>$"Nom : {p.Name}, prenom : {p.FirstName}"));
         }
     }
 }

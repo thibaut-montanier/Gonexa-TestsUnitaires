@@ -33,14 +33,7 @@ namespace MyLibrary.Tests {
 
         }
 
-        [TestCase(new MathsClass(), 1,2)]
-        public void TestAdd(MathsClass expected, int v1, int v2) {
-            nbInstance++;
-            int result = mc.Additionne(v1, v2);
-            Assert.AreEqual(expected, result);
-            Assert.Fail($"{nbInstance} - {Thread.CurrentThread.ManagedThreadId}");
-
-        }
+      
 
         [Test]
         public void DiviseTest() {
