@@ -29,7 +29,7 @@ namespace MyLibrary.Tests {
             nbInstance++;
             int result = mc.Additionne(v1, v2);
             Assert.AreEqual(expected, result);
-            Assert.Fail($"{nbInstance} - {Thread.CurrentThread.ManagedThreadId}");
+            //Assert.Fail($"{nbInstance} - {Thread.CurrentThread.ManagedThreadId}");
 
         }
 
